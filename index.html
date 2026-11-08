@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Mark Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Mark Calculator</h1>
+
+        <div class="form-box">
+
+            <label for="studentName">Student Name</label>
+            <input type="text" id="studentName" placeholder="Enter student name">
+
+            <label for="mark1">Math Subject</label>
+            <input type="number" id="mark1" placeholder="Enter mark">
+
+            <label for="mark2">Chemistry Subject</label>
+            <input type="number" id="mark2" placeholder="Enter mark">
+
+            <label for="mark3">computer Subject</label>
+            <input type="number" id="mark3" placeholder="Enter mark">
+
+            <label for="mark3">English Subject</label>
+            <input type="number" id="mark4" placeholder="Enter mark">
+
+            <label for="mark3">Physic Subject</label>
+            <input type="number" id="mark5" placeholder="Enter mark">
+
+            <label for="mark3">Nepali/Hindi/Tamil Subject</label>
+            <input type="number" id="mark6" placeholder="Enter mark">
+
+            <button onclick="calculateMarks()">Calculate</button>
+
+        </div>
+
+        <div id="result" class="result-box">
+            <h2>Result</h2>
+
+            <p>Student Name:
+                <span id="resultName">---</span>
+            </p>
+
+            <p>Total Marks:
+                <span id="total">---</span>
+            </p>
+
+            <p>Percentage:
+                <span id="percentage">---</span>
+            </p>
+
+            <p>Grade:
+                <span id="grade">---</span>
+            </p>
+
+            <p>Result:
+                <span id="status">---</span>
+            </p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+     <footer>
+        <p>© 2026 Biku Sah | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
